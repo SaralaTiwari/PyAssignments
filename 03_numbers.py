@@ -31,3 +31,5 @@ y = 2.2
 
 print(type(x))
 print(type(y))
+"""<type 'int'>
+<type 'float'>"""

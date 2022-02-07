@@ -24,7 +24,7 @@ Please read the note carefully and try to solve the problem below:
     e. now remove the second item using `pop()` method and see if the item exists in the list
         - you can print the list before and after using the `pop()` method.
 """
-"""
+
 # answer 1
 my_list = [] #DONE
 
@@ -50,7 +50,8 @@ print("There are ", my_list.__len__(), "elements in this list.") #DONE
 # e
 
 my_list.pop(2)
-print(my_list) #DONE  """
+print(my_list) #DONE 
+
 """
 2. Write a program to add 5 different wild animals to a list named `wild`.
     - tiger, lion, deer, bear, zebra
@@ -71,7 +72,7 @@ print(my_list) #DONE  """
     note: you can print the values of list after each successful operations to see what is being changed.
 """
 # answer 2
-"""
+
 wild = ["tiger", "lion", "deer", "bear", "zebra"]
 # a
 wild.sort()
@@ -100,7 +101,7 @@ print(wild) #DONE
 # f
 wild.remove("rhino")
 print(wild) #DONE
-"""
+
 """
 3. Try creating a multi-dimensional list or nested list `multi` of different numbers.
     eg: [[12,52,37],[46,51,16],[17,82,39]]
@@ -134,4 +135,4 @@ print(multi) # AGAIN, WHY DOES IT RETURN NONE WHEN I PRINT IN THE FIRST LINE OF 
 # e
 
 multi.clear()
-print(multi)
+print(multi) #DONE
