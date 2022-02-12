@@ -19,29 +19,42 @@ Please read the note carefully and try to solve the problem below:
 """
 
 # Answer 1a
-
+ood: int = 3
 
 # Answer 1b
-
+pi: float = 3.14
+print(pi)
 
 # Answer 1c
 
+any: str = 4
+print(any)
 
+import math
+def add_int(x, y):
+    
+    return( math.floor(x) + y)
+
+#No error but do not know why. 
 """
 2. Type Conversion
 """
 # ----------------------------------------[ a ]-----------------------------------------------
 
+import math
 PI = 3.1415
+def add_int(PI):
+    return( math.floor(PI))
+
 # I want to print the value of PI to be 3. How should I convert the data to an integer
 
 
 # ----------------------------------------[ b ]-----------------------------------------------
 
-str_1 = "20"
-str_2 = "30"
+# str_1 = "20"
+# str_2 = "30"
 
-print(str_1 + str_2)
+# print(str_1 + str_2)
 # above line gives us output of "2030" but I want the answer to be 50.
 # How would you solve the problem using type conversion?
 
