@@ -28,26 +28,25 @@ Please read the note carefully and try to solve the problem below:
 rich_country = {'USA', 'China', 'Japan', 'Germany', 'France', 'Australia', 'Italy'}
 europian_country = {'Germany', 'France', 'England', 'Switzerland', 'Italy', 'Portugal', 'Sweden'}
 # a
-print(rich_country.intersection(europian_country))
-
-
+rich_non_europian = rich_country.difference(europian_country)
+print(f'The countries that are rich but not in Europe are {rich_non_europian}.')
 # b
-
-
+poor_europian = europian_country-rich_country
+print(f'The countries that are poor but in Europe are {poor_europian}.')
 # c
-
-
+rich_europian = europian_country-europian_country.difference(rich_country)
+print(f'The countries that are rich and in Europe are {rich_europian}.')
 # d
-
-
+rich_only = rich_country.difference(europian_country) 
+europian_only = europian_country.difference(rich_country) 
+union_ab = rich_only.union(europian_only)
+print(union_ab)
 # e
-
-
+print(rich_country.union(europian_country))
 # f
-
+print(rich_country.isdisjoint(europian_country))
 # g
-
-
+print(rich_only.isdisjoint(europian_only))
 """
 2. Create two more sets
     i.  `asian_rich` and add {'China', 'Japan'} to it.
@@ -57,14 +56,13 @@ print(rich_country.intersection(europian_country))
    a. `asian_rich` is a subset of `rich` or not
    b. `rich` is a superset of `asian_rich` or not
    c. `american_rich` is a subset of `rich` or not
-
 """
 # answer 2
-
+asian_rich = {'China', 'Japan'}
+american_rich = {'USA', 'Canada'}
 # a
-
-
+print(asian_rich.issubset(rich_country))
 # b
-
-
+print(rich_country.issuperset(asian_rich))
 # c
+print(american_rich.issubset(rich_country))

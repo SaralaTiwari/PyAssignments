@@ -28,23 +28,23 @@ from unicodedata import name
 # """
 # # Answers:
 
-# a_person = { 
-#     'name': 'diva',
-#     'age': '200',
-#     'profession': 'woost',
-#     'married': True
-# }
-# # 1.a
-# print(f'The name of the person is', a_person['name'],'.')
-# # 1.b
-# a_person['age'] = 10
-# print(f'The new age of', a_person['name'], 'is', a_person['age'],'.' )
-# # 1.c
-# print(a_person['employeed']) #ANS = KeyError: 'employeed'
-# # 1.d
-# print(a_person.get('employeed'))#ANS = NONE
-# # 1.e
-# print(a_person.get('employed', True))
+a_person = { 
+    'name': 'diva',
+    'age': '200',
+    'profession': 'woost',
+    'married': True
+}
+# 1.a
+print(f'The name of the person is', a_person['name'],'.')
+# 1.b
+a_person['age'] = 10
+print(f'The new age of', a_person['name'], 'is', a_person['age'],'.' )
+# 1.c
+print(a_person['employeed']) #ANS = KeyError: 'employeed'
+# 1.d
+print(a_person.get('employeed'))#ANS = NONE
+# 1.e
+print(a_person.get('employed', True))
 
 # """
 # 2. create a dictionary <car> with 3 keys and values (brand, model, price).
