@@ -165,28 +165,15 @@ Pattern 10  (Bonus Exercise)
 
 """
 # Answer Here
-# n =5
 for i in range(5):
     for j in range(i, 4):
         print(' ', end=" ")
     for j in range(i):
         print((j-1)+2, end=' ')
-    # for j in range(5):
-        # print(' ', end=" ")
     for j in range(i+1):
         print((i-j)+1, end=' ')
-    # for j in range(4):
-    #     print(' ', end=" ")
-    # for j in range(4):
-    #     print((j-i)+1, end=" ")
-    # for i in range()
-# for j in range(i+1):
-#     print((i-j)+1, end=' ')
-    # for j in range(4):
-    #     print(' ', end=" ")
-    # for j in range(i+1):
-    #     print((i-j)+1, end=' ')
-    print()
+
+    print() #DONE
 
 
 
