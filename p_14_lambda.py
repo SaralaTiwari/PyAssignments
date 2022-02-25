@@ -45,7 +45,7 @@ Create a lambda function that takes an argument and finds out the square if it i
 """
 # answer
 
-even_or_odd = lambda x: x**2==0
+even_or_odd = lambda x: (x**2)%2==0
 print(even_or_odd(5)) #Not sure about this either.
 """
 5.

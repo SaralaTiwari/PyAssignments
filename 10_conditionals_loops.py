@@ -38,35 +38,35 @@ for n in num:
         odd_num.append(n) 
 print(even_num) 
 print(odd_num)  # DONE 
+'''
+4.  Write a program to input 2 different words and find out if the words are Palindrome or not.
 
-# # 4.  Write a program to input 2 different words and find out if the words are Palindrome or not.
+    - A word is palindrome if reads the same from both backward and forward.
 
-# #     - A word is palindrome if reads the same from both backward and forward.
-
-# #     Eg: EVE, HANNAH, BOB, ANNA, ROTATOR, REPAPER
-# # ________________________________________________________________________
-# # The Output in the console should look like below
-# # ________________________________________________________________________
-# # Enter a word: Hannah
-# # Hannah is a palindrome word
-# # ________________________________________________________________________
-# # '''
-# # # answer here
+    Eg: EVE, HANNAH, BOB, ANNA, ROTATOR, REPAPER
+________________________________________________________________________
+The Output in the console should look like below
+________________________________________________________________________
+Enter a word: Hannah
+Hannah is a palindrome word
+________________________________________________________________________
+'''
+# answer here
     
-# from audioop import reverse
+from audioop import reverse
 
-# first_word = (input(('Do you have a word in mind? ')))
-# if first_word==(first_word[::-1]):
-#     print(f"{first_word} is a Palindrom.")
-# else:
-#     print("{first_word} is not a Palindrom.", end = " ")
+first_word = (input(('Do you have a word in mind? ')))
+if first_word==(first_word[::-1]):
+    print(f"{first_word} is a Palindrom.")
+else:
+    print("{first_word} is not a Palindrom.", end = " ")
 
-# # How do I break the first loop from repeating? Or how do I merge these two into one?
-# # I tried break but it shows error and used elif to merge the 4 lines of codes but unsuccessful. 
-# second_word = (input(('Do you have a word in mind? ')))
-# if second_word==(second_word[::-1]):
-#     print(f"{second_word} is a Palindrom.")
-# else: 
+# How do I break the first loop from repeating? Or how do I merge these two into one?
+# I tried break but it shows error and used elif to merge the 4 lines of codes but unsuccessful. 
+second_word = (input(('Do you have a word in mind? ')))
+if second_word==(second_word[::-1]):
+    print(f"{second_word} is a Palindrom.")
+else: 
 #     print("{second_word} is not a Palindrom.") # DONE
 
 
