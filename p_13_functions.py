@@ -245,4 +245,4 @@ def any(*args):
     if x%2 != 0:
         j = x*2
         return(y+j)
-print(any(2, 4, 5,53,2,4,56))
+# print(any(2, 4, 5,53,2,4,56)) #Can't figure this one out too. Error:if x%2 == 0:TypeError: unsupported operand type(s) for %: 'tuple' and 'int'
